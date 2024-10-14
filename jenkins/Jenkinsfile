@@ -7,7 +7,7 @@ pipeline {
                 dir("GitHub Pipeline") {
                     sh "git reset --hard b72f505a6659ca4741a14d5eac9c2eb668578345"
                 }
-                sh 'mvn clean install
+                sh 'mvn clean install'
             }
         }
         stage('Test') {
