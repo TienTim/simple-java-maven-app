@@ -21,7 +21,7 @@ pipeline {
             }
         }
         stage('Complete') {
-            stetps {
+            steps {
                 echo 'Build completed'
             }
         }
