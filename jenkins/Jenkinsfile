@@ -20,5 +20,10 @@ pipeline {
                 }
             }
         }
+        stage('Complete') {
+            stetps {
+                echo 'Build completed'
+            }
+        }
     }
 }
